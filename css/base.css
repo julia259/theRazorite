@@ -1,5 +1,5 @@
 @font-face {
-  font-family: NoirPro;
+  font-family: "NoirPro";
   font-display: swap;
   src: url("../fonts/NoirPro-BoldItalic.woff2") format("woff2"),
     url("../fonts/NoirPro-BoldItalic.woff") format("woff");
@@ -7,26 +7,54 @@
   font-style: normal;
 }
 
-
-
-body{
-
-}
-header{
-
+* {
+  font-family: "NoirPro";
 }
 
-.base-el{
-
+body {
+  background: #838383;
+  background-image: url(../img/bmw1.png);
+  /* url(../img/bmw1.webp); */
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: bottom 100% right 50%;
+  min-height: 100%;
+  background-color: #6e6b6b00;
+  background-origin: border-box;
+  background-size: cover;
 }
-.content{
-
+header {
+  top: 0;
+  height: 188px;
+  width: 100vw;
 }
-.logo{
 
+.base-el {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 3.33vw auto 3.3vw;
+  align-self: flex-start;
+  height: calc(44.7vw / 4.47);
 }
-.logo_bmw{
-
+.content {
+  left: 0;
+  top: 0;
+  width: 44.7vw;
+  height: calc(44.7vw / 4.47);
+  font-size: 60px;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  position: sticky;
+  color: #393939;
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+.logo {
+}
+.logo_bmw {
 }
 .lineage {
   height: 1px;
@@ -49,40 +77,28 @@ header{
   );
   border-radius: 107px;
 }
-.description{
-
+.description {
 }
-.description_start{
-
+.description_start {
 }
-.direction{
-
+.direction {
 }
-.to-left{
-
+.to-left {
 }
-.to-right{
-
+.to-right {
 }
-.like_blok{
-
+.like_blok {
 }
-.like_img{
-
+.like_img {
 }
 
-.like_stat-blok{
-
+.like_stat-blok {
 }
-.social-media{
-
+.social-media {
 }
-.ok{
-
+.ok {
 }
-.vk{
-
+.vk {
 }
-.fc{
-
+.fc {
 }
