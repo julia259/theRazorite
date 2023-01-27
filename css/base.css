@@ -1,7 +1,88 @@
 @font-face {
   font-family: NoirPro;
   font-display: swap;
-  src: url("../fonts/NoirPro-BoldItalic.woff2") format("woff2"),url("../fonts/NoirPro-BoldItalic.woff") format("woff");
+  src: url("../fonts/NoirPro-BoldItalic.woff2") format("woff2"),
+    url("../fonts/NoirPro-BoldItalic.woff") format("woff");
   font-weight: 400;
   font-style: normal;
+}
+
+
+
+body{
+
+}
+header{
+
+}
+
+.base-el{
+
+}
+.content{
+
+}
+.logo{
+
+}
+.logo_bmw{
+
+}
+.lineage {
+  height: 1px;
+  max-width: 80%;
+  width: 1792px;
+  left: 64px;
+  top: 187px;
+  border: 2px solid;
+  background: linear-gradient(
+    90deg,
+    rgba(243, 106, 29, 0) 0%,
+    #f36a1d 48.23%,
+    rgba(243, 106, 29, 0) 99.27%
+  );
+  border-image-source: linear-gradient(
+    90deg,
+    rgba(243, 106, 29, 0) 0%,
+    #f36a1d 48.23%,
+    rgba(243, 106, 29, 0) 99.27%
+  );
+  border-radius: 107px;
+}
+.description{
+
+}
+.description_start{
+
+}
+.direction{
+
+}
+.to-left{
+
+}
+.to-right{
+
+}
+.like_blok{
+
+}
+.like_img{
+
+}
+
+.like_stat-blok{
+
+}
+.social-media{
+
+}
+.ok{
+
+}
+.vk{
+
+}
+.fc{
+
 }
