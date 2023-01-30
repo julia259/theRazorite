@@ -10,6 +10,11 @@
 * {
   font-family: "NoirPro";
 }
+html {
+  font-size: calc(60px * (1920px));
+  /* 1920px -.> 60px <- 100vh */
+  /* 375 px-> 32px;  */
+}
 
 body {
   background: #838383;
@@ -80,6 +85,25 @@ header {
 .description {
 }
 .description_start {
+  /* position: relative; */
+  width: 30px;
+  height: 18px;
+  left: 22px;
+  top: 24px;
+
+  /* xxl/ p */
+
+  font-family: "NoirPro-Light";
+  font-size: 20px;
+  line-height: 72.7%;
+  /* or 27px */
+
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+
+  /* #999999 */
+
+  color: #727272;
 }
 .direction {
 }
@@ -97,8 +121,31 @@ header {
 .social-media {
 }
 .ok {
+  width: 44px;
+  height: 44px;
+  background:  url("../img/ok-normal.svg") no-repeat bottom 50% right 50%; 
+
+}
+.vk { 
+  width: 44px;
+  height: 44px;
+  background:  url("../img/vk-diseble.svg") no-repeat bottom 50% right 50%;
+
+}
+.fc { 
+  width: 44px;
+  height: 44px;
+  background:  url("../img/Facebook-diseble.svg") no-repeat bottom 50% right 50%; 
+
+}
+.ok:hover {
+  background:  url("../img/ok-activ.svg") no-repeat bottom 50% right 50%
 }
 .vk {
+  fill: #F36A1D;
+  
 }
-.fc {
+  
+
+.fc:hover {
 }
